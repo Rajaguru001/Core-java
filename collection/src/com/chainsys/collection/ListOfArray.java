@@ -48,6 +48,38 @@ public class ListOfArray {
 		System.out.println(q2);
 		System.out.println("the Size:"+q2.size());
 		System.out.println("The poll: "+q2.poll());	
+		
+		HashSet<String>hs=new HashSet<String>();
+		hs.add("Raja");
+		hs.add("Guru");
+		hs.add("Vasa");
+		hs.add("suusa");
+		hs.add("Raja");
+		System.out.println("The set is: "+hs);
+		
+		TreeSet<String>ts=new TreeSet<String>();
+		ts.add("Raja");
+		ts.add("Guru");
+		ts.add("Vasa");
+		ts.add("suusa");
+		ts.add("Raja");
+		
+		System.out.println("The Tree Set is: "+ts);
+		
+		Map <Integer,String> hm=new HashMap<Integer,String>();
+		hm.put(1, "Raja");
+		hm.put(2, "Guru");
+		hm.put(3, "Vasa");
+		hm.put(4, "Chand");
+		hm.put(5, "Prane");
+		System.out.println(hm);
+		System.out.println(hm.containsKey(1));
+		System.out.println("Size Of the Map is");
+		System.out.println(hm.size());
+		
+		
+		
+		
 	
 		
 
