@@ -5,10 +5,11 @@ import java.util.*;
 public class List {
 
 	public static void main(String[] args) {
-		// int a[]=new int[5];
+		
 		ArrayList<Integer> alist = new ArrayList<Integer>();
-		for (int i = 1; i <= 10; i++)
+		for (int i = 1; i <= 10; i++) {
 			alist.add(i);
+		}
 		alist.add(100);
 		alist.add(100);
 		alist.add(100);
@@ -28,8 +29,9 @@ public class List {
 			System.out.println(j);
 		}
 		Iterator<Integer> i=alist.iterator();
+		System.out.println();
 		
-		System.out.println("The Specific Value is:"+i.next());
+		//System.out.println("The Specific Value is:"+i.next());
 		while(i.hasNext()) {
 			System.out.println(i.next());
 		}
@@ -42,7 +44,10 @@ public class List {
 		slist.add("ok");
 		System.out.println("The value is :" + slist);
 		slist.contains(slist);
-
+		
+		//LinkedList<Integer> blist=new LinkedList<Integer>();
+//
+	//	blist.
 	}
 
 }
